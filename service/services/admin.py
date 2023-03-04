@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from services.models import Service, Plan, Subcription
+from services.models import Service, Plan, Subscription
 
 admin.site.register(Service)
 admin.site.register(Plan)
-admin.site.register(Subcription)
+admin.site.register(Subscription)
